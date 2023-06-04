@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+#logo{
+    text-align: center;
+    width: 380px;
+    height: 50px;
+    background-color: pink; 
+    border-radius: 20px;
+}
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.player {
+    background: linear-gradient(#5CCCCC, white);
+    border-radius: 5%;
+    position: absolute;
+    width: 380px;
+    height: 508px;
+    left: 530px;
+    top: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #006363;
+    
+}
+.imgg{
+    border-radius: 50%;
+}
+.image {
+
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+
+    
+    
+}
+.song {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+.song1 {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+.progress__container {
+    background-color: #009999;
+    border-radius: 5px;
+    width: 90%;
+    height: 6px;
+    margin-top: 23px;
+    cursor: pointer;
+    margin-left: 19px;
+    padding: 2px;
+    
+}
+.progress {
+    background-color: #006363;
+    border-radius: 5px;
+  
+    height: 6px;
+
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 184px;
+    margin: auto;
+    margin-top: 15px;
+}
+.btn {
+    cursor: pointer;
+}
+.audioVisualization {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audioVisualization-line{
+    width: 10px;
+    margin: 2px;
+    border-radius: 10%;
+    background-image: linear-gradient(180deg, red, pink);
+}
+
+/* 
+.player__fireplace {
+    width: 380px;
+    max-height: 50px;
+    display: block;
+
+} */
+
+/* .myCanvas {
+    min-width: 350px;
+    min-height: 80px;
+    max-width: 350px;
+    max-height: 80px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+
+} */
