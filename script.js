@@ -177,12 +177,12 @@ audio.addEventListener('ended', nextSong)
 
 //     window.requestAnimationFrame(render)
 // }
-
+var audioVisualization =document.getElementById("audioVisualization")
 var context;
 var analyser;
 var src;
 var array;
-var audioVisualizationLine
+var audioVisualizationLine;
 logo = document.getElementById("logo".style);
 function preparation(){
     context = new AudioContext();
