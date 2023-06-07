@@ -23,7 +23,7 @@ body {
     border-radius: 5%;
     position: absolute;
     width: 380px;
-    height: 508px;
+    height: 528px;
     left: 530px;
     top: 100px;
     border-style: solid;
@@ -65,7 +65,7 @@ body {
     border-radius: 5px;
     width: 90%;
     height: 6px;
-    margin-top: 23px;
+    margin-top: 3px;
     cursor: pointer;
     margin-left: 19px;
     padding: 2px;
@@ -90,15 +90,15 @@ body {
     cursor: pointer;
 }
 .audioVisualization {
-    margin-top: 10px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.audioVisualization-line{
+  }
+  .audioVisualization-line {
     width: 10px;
     margin: 2px;
-    border-radius: 10%;
+    border-radius: 30px;
     background-image: linear-gradient(180deg, red, pink);
 }
 
